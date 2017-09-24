@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
-from .models import Category, Product
+from .models import Category, Product, Description_dises
 def product_list(request, category_slug=None):
     category = None
     categories = Category.objects.all()
