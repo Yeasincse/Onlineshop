@@ -1,0 +1,12 @@
+Onlineshop 
+
+Checkout this repo, install dependencies, then start the server:
+
+
+> git clone https://github.com/Yeasincse/Onlineshop.git
+> cd Onlineshop
+> virtualenv .
+> source bin/activate
+> cd src
+> pip install -r requirements.txt
+> python manage.py runserver
